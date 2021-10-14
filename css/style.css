@@ -632,7 +632,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 14px;
     line-height: 133.5%;
-    /* or 19px */
     color: #061058;
     position: relative;
     margin-top: 20px;
@@ -647,6 +646,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     border: 1.5px solid #061058;
     text-align: center;
+}
+
+@media (max-width: 930px) {
+    .section-1__part-2-list-1 li::before {
+        left: -40px;
+    }
 }
 
 .section-1__part-2-list-2 {
